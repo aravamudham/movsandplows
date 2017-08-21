@@ -1,6 +1,6 @@
 {
    "scripts": { 
    	"post-install-cmd": 
-   		[ "mkdir app", "chmod -R 777 assets" ] 
+   		[ "mkdir app", "chmod -R 777 assets", "chmod -R 777 protected/runtime" ] 
    	} 
 }
