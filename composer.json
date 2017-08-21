@@ -1,8 +1,8 @@
 {
   "scripts": {
     "compile": [
-      "chmod -R 777 assets/",
-      "chmod 755 protected/"
+      "chmod -R 777 /assets/",
+      "chmod 777 /protected/runtime"
     ]
   }
 }
