@@ -1,0 +1,39 @@
+
+.search-form form, form.no-margin {
+    margin: 0;
+}
+.search-form input {
+    min-height: 26px;
+}
+.search-form select,
+.search-form textarea,
+.search-form input[type="text"],
+.search-form input[type="password"],
+.search-form input[type="datetime"],
+.search-form input[type="datetime-local"],
+.search-form input[type="date"],
+.search-form input[type="month"],
+.search-form input[type="time"],
+.search-form input[type="week"],
+.search-form input[type="number"],
+.search-form input[type="email"],
+.search-form input[type="url"],
+.search-form input[type="search"],
+.search-form input[type="tel"],
+.search-form input[type="color"],
+.search-form .uneditable-input {
+    margin-bottom: 0;
+}
+
+
+.pager li>a,.pager li>span{border-radius:15px;}
+ul.yiiPager .first,
+ul.yiiPager .last
+{
+    display: inline;
+}
+
+.grid-view .button-column {
+    text-align: center;
+    width: 10%;
+}

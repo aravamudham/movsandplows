@@ -1,0 +1,324 @@
+2017/05/06 04:33:43 [error] [php] array_push() expects parameter 1 to be array, null given (/home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/api/DriverConfirmAction.php:32)
+Stack trace:
+#0 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(308): DriverConfirmAction->runWithParams()
+#1 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(286): ApiController->runAction()
+#2 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#3 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): ApiController->run()
+#4 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /home2/hicommart/public_html/hicomsolutions/taxinear/index.php(13): CWebApplication->run()
+REQUEST_URI=/taxinear/api/driverConfirm
+in /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/api/DriverConfirmAction.php (32)
+in /home2/hicommart/public_html/hicomsolutions/taxinear/index.php (13)
+2017/05/06 04:38:12 [error] [php] include(Globals.php): failed to open stream: No such file or directory (/home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/YiiBase.php:432)
+Stack trace:
+#0 /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/api/DriverConfirmAction.php(37): spl_autoload_call()
+#1 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/actions/CAction.php(76): DriverConfirmAction->run()
+#2 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(308): DriverConfirmAction->runWithParams()
+#3 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(286): ApiController->runAction()
+#4 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#5 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): ApiController->run()
+#6 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /home2/hicommart/public_html/hicomsolutions/taxinear/index.php(13): CWebApplication->run()
+REQUEST_URI=/taxinear/api/driverConfirm
+in /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/api/DriverConfirmAction.php (37)
+in /home2/hicommart/public_html/hicomsolutions/taxinear/index.php (13)
+2017/05/06 04:40:26 [error] [php] include(Globals.php): failed to open stream: No such file or directory (/home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/YiiBase.php:432)
+Stack trace:
+#0 /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/api/CreateRequestAction.php(18): spl_autoload_call()
+#1 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/actions/CAction.php(76): CreateRequestAction->run()
+#2 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(308): CreateRequestAction->runWithParams()
+#3 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(286): ApiController->runAction()
+#4 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#5 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): ApiController->run()
+#6 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /home2/hicommart/public_html/hicomsolutions/taxinear/index.php(13): CWebApplication->run()
+REQUEST_URI=/taxinear/api/createRequest
+in /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/api/CreateRequestAction.php (18)
+in /home2/hicommart/public_html/hicomsolutions/taxinear/index.php (13)
+2017/05/06 04:57:07 [error] [php] Cannot modify header information - headers already sent by (output started at /home2/hicommart/public_html/hicomsolutions/taxinear/protected/config/globals.php:150) (/home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/ApiController.php:93)
+Stack trace:
+#0 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/actions/CAction.php(76): CancelTripAction->run()
+#1 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(308): CancelTripAction->runWithParams()
+#2 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(286): ApiController->runAction()
+#3 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#4 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): ApiController->run()
+#5 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /home2/hicommart/public_html/hicomsolutions/taxinear/index.php(13): CWebApplication->run()
+REQUEST_URI=/taxinear/api/cancelTrip
+in /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/ApiController.php (93)
+in /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/api/CancelTripAction.php (107)
+in /home2/hicommart/public_html/hicomsolutions/taxinear/index.php (13)
+2017/05/06 05:00:05 [error] [php] Cannot modify header information - headers already sent by (output started at /home2/hicommart/public_html/hicomsolutions/taxinear/protected/config/globals.php:150) (/home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/ApiController.php:93)
+Stack trace:
+#0 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/actions/CAction.php(76): CancelTripAction->run()
+#1 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(308): CancelTripAction->runWithParams()
+#2 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(286): ApiController->runAction()
+#3 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#4 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): ApiController->run()
+#5 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /home2/hicommart/public_html/hicomsolutions/taxinear/index.php(13): CWebApplication->run()
+REQUEST_URI=/taxinear/api/cancelTrip
+in /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/ApiController.php (93)
+in /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/api/CancelTripAction.php (107)
+in /home2/hicommart/public_html/hicomsolutions/taxinear/index.php (13)
+2017/05/06 05:03:34 [error] [php] Cannot modify header information - headers already sent by (output started at /home2/hicommart/public_html/hicomsolutions/taxinear/protected/config/globals.php:150) (/home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/ApiController.php:93)
+Stack trace:
+#0 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/actions/CAction.php(76): CancelTripAction->run()
+#1 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(308): CancelTripAction->runWithParams()
+#2 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(286): ApiController->runAction()
+#3 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#4 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): ApiController->run()
+#5 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /home2/hicommart/public_html/hicomsolutions/taxinear/index.php(13): CWebApplication->run()
+REQUEST_URI=/taxinear/api/cancelTrip
+in /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/ApiController.php (93)
+in /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/api/CancelTripAction.php (107)
+in /home2/hicommart/public_html/hicomsolutions/taxinear/index.php (13)
+2017/05/06 05:04:22 [error] [php] Cannot modify header information - headers already sent by (output started at /home2/hicommart/public_html/hicomsolutions/taxinear/protected/config/globals.php:150) (/home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/ApiController.php:93)
+Stack trace:
+#0 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/actions/CAction.php(76): CreateRequestAction->run()
+#1 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(308): CreateRequestAction->runWithParams()
+#2 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(286): ApiController->runAction()
+#3 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#4 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): ApiController->run()
+#5 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /home2/hicommart/public_html/hicomsolutions/taxinear/index.php(13): CWebApplication->run()
+REQUEST_URI=/taxinear/api/createRequest
+in /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/ApiController.php (93)
+in /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/api/CreateRequestAction.php (125)
+in /home2/hicommart/public_html/hicomsolutions/taxinear/index.php (13)
+2017/05/06 05:21:36 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `vehicle_img` `t` WHERE carId = LIMIT 1.
+in /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/api/ShowTripDetailAction.php (39)
+in /home2/hicommart/public_html/hicomsolutions/taxinear/index.php (13)
+2017/05/06 05:21:36 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `vehicle_img` `t` WHERE carId = LIMIT 1' in /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(1356): CDbCommand->queryRow()
+#2 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(1461): CActiveRecord->query(Object(CDbCriteria))
+#3 /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/api/ShowTripDetailAction.php(39): CActiveRecord->find('carId =')
+#4 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/actions/CAction.php(76): ShowTripDetailAction->run()
+#5 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(308): CAction->runWithParams(Array)
+#6 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(286): CController->runAction(Object(ShowTripDetailAction))
+#7 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(ShowTripDetailAction), Array)
+#8 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('showTripDetail')
+#9 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('api/showTripDet...')
+#10 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /home2/hicommart/public_html/hicomsolutions/taxinear/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taxinear/api/showTripDetail
+---
+2017/05/06 05:21:49 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `vehicle_img` `t` WHERE carId = LIMIT 1.
+in /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/api/ShowTripDetailAction.php (39)
+in /home2/hicommart/public_html/hicomsolutions/taxinear/index.php (13)
+2017/05/06 05:21:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `vehicle_img` `t` WHERE carId = LIMIT 1' in /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(1356): CDbCommand->queryRow()
+#2 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(1461): CActiveRecord->query(Object(CDbCriteria))
+#3 /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/api/ShowTripDetailAction.php(39): CActiveRecord->find('carId =')
+#4 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/actions/CAction.php(76): ShowTripDetailAction->run()
+#5 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(308): CAction->runWithParams(Array)
+#6 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(286): CController->runAction(Object(ShowTripDetailAction))
+#7 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(ShowTripDetailAction), Array)
+#8 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('showTripDetail')
+#9 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('api/showTripDet...')
+#10 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /home2/hicommart/public_html/hicomsolutions/taxinear/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taxinear/api/showTripDetail
+---
+2017/05/06 05:22:23 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `vehicle_img` `t` WHERE carId = LIMIT 1.
+in /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/api/ShowTripDetailAction.php (39)
+in /home2/hicommart/public_html/hicomsolutions/taxinear/index.php (13)
+2017/05/06 05:22:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `vehicle_img` `t` WHERE carId = LIMIT 1' in /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(1356): CDbCommand->queryRow()
+#2 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(1461): CActiveRecord->query(Object(CDbCriteria))
+#3 /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/api/ShowTripDetailAction.php(39): CActiveRecord->find('carId =')
+#4 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/actions/CAction.php(76): ShowTripDetailAction->run()
+#5 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(308): CAction->runWithParams(Array)
+#6 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(286): CController->runAction(Object(ShowTripDetailAction))
+#7 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(ShowTripDetailAction), Array)
+#8 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('showTripDetail')
+#9 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('api/showTripDet...')
+#10 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /home2/hicommart/public_html/hicomsolutions/taxinear/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taxinear/api/showTripDetail
+---
+2017/05/06 05:22:53 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `vehicle_img` `t` WHERE carId = LIMIT 1.
+in /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/api/ShowTripDetailAction.php (39)
+in /home2/hicommart/public_html/hicomsolutions/taxinear/index.php (13)
+2017/05/06 05:22:53 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `vehicle_img` `t` WHERE carId = LIMIT 1' in /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(1356): CDbCommand->queryRow()
+#2 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(1461): CActiveRecord->query(Object(CDbCriteria))
+#3 /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/api/ShowTripDetailAction.php(39): CActiveRecord->find('carId =')
+#4 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/actions/CAction.php(76): ShowTripDetailAction->run()
+#5 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(308): CAction->runWithParams(Array)
+#6 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(286): CController->runAction(Object(ShowTripDetailAction))
+#7 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(ShowTripDetailAction), Array)
+#8 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('showTripDetail')
+#9 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('api/showTripDet...')
+#10 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /home2/hicommart/public_html/hicomsolutions/taxinear/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taxinear/api/showTripDetail
+---
+2017/05/06 05:23:48 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `vehicle_img` `t` WHERE carId = LIMIT 1.
+in /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/api/ShowTripDetailAction.php (39)
+in /home2/hicommart/public_html/hicomsolutions/taxinear/index.php (13)
+2017/05/06 05:23:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `vehicle_img` `t` WHERE carId = LIMIT 1' in /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(1356): CDbCommand->queryRow()
+#2 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(1461): CActiveRecord->query(Object(CDbCriteria))
+#3 /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/api/ShowTripDetailAction.php(39): CActiveRecord->find('carId =')
+#4 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/actions/CAction.php(76): ShowTripDetailAction->run()
+#5 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(308): CAction->runWithParams(Array)
+#6 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(286): CController->runAction(Object(ShowTripDetailAction))
+#7 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(ShowTripDetailAction), Array)
+#8 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('showTripDetail')
+#9 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('api/showTripDet...')
+#10 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /home2/hicommart/public_html/hicomsolutions/taxinear/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taxinear/api/showTripDetail
+---
+2017/05/06 05:24:44 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `vehicle_img` `t` WHERE carId = LIMIT 1.
+in /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/api/ShowTripDetailAction.php (39)
+in /home2/hicommart/public_html/hicomsolutions/taxinear/index.php (13)
+2017/05/06 05:24:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `vehicle_img` `t` WHERE carId = LIMIT 1' in /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(1356): CDbCommand->queryRow()
+#2 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(1461): CActiveRecord->query(Object(CDbCriteria))
+#3 /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/api/ShowTripDetailAction.php(39): CActiveRecord->find('carId =')
+#4 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/actions/CAction.php(76): ShowTripDetailAction->run()
+#5 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(308): CAction->runWithParams(Array)
+#6 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(286): CController->runAction(Object(ShowTripDetailAction))
+#7 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(ShowTripDetailAction), Array)
+#8 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('showTripDetail')
+#9 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('api/showTripDet...')
+#10 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /home2/hicommart/public_html/hicomsolutions/taxinear/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taxinear/api/showTripDetail
+---
+2017/05/06 05:26:10 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `vehicle_img` `t` WHERE carId = LIMIT 1.
+in /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/api/ShowTripDetailAction.php (39)
+in /home2/hicommart/public_html/hicomsolutions/taxinear/index.php (13)
+2017/05/06 05:26:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `vehicle_img` `t` WHERE carId = LIMIT 1' in /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(1356): CDbCommand->queryRow()
+#2 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(1461): CActiveRecord->query(Object(CDbCriteria))
+#3 /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/api/ShowTripDetailAction.php(39): CActiveRecord->find('carId =')
+#4 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/actions/CAction.php(76): ShowTripDetailAction->run()
+#5 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(308): CAction->runWithParams(Array)
+#6 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(286): CController->runAction(Object(ShowTripDetailAction))
+#7 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(ShowTripDetailAction), Array)
+#8 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('showTripDetail')
+#9 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('api/showTripDet...')
+#10 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /home2/hicommart/public_html/hicomsolutions/taxinear/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taxinear/api/showTripDetail
+---
+2017/05/06 05:30:04 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `vehicle_img` `t` WHERE carId = LIMIT 1.
+in /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/api/ShowTripDetailAction.php (39)
+in /home2/hicommart/public_html/hicomsolutions/taxinear/index.php (13)
+2017/05/06 05:30:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `vehicle_img` `t` WHERE carId = LIMIT 1' in /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(1356): CDbCommand->queryRow()
+#2 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(1461): CActiveRecord->query(Object(CDbCriteria))
+#3 /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/api/ShowTripDetailAction.php(39): CActiveRecord->find('carId =')
+#4 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/actions/CAction.php(76): ShowTripDetailAction->run()
+#5 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(308): CAction->runWithParams(Array)
+#6 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(286): CController->runAction(Object(ShowTripDetailAction))
+#7 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(ShowTripDetailAction), Array)
+#8 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('showTripDetail')
+#9 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('api/showTripDet...')
+#10 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /home2/hicommart/public_html/hicomsolutions/taxinear/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taxinear/api/showTripDetail
+---
+2017/05/06 05:31:00 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `vehicle_img` `t` WHERE carId = LIMIT 1.
+in /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/api/ShowTripDetailAction.php (39)
+in /home2/hicommart/public_html/hicomsolutions/taxinear/index.php (13)
+2017/05/06 05:31:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `vehicle_img` `t` WHERE carId = LIMIT 1' in /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(1356): CDbCommand->queryRow()
+#2 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(1461): CActiveRecord->query(Object(CDbCriteria))
+#3 /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/api/ShowTripDetailAction.php(39): CActiveRecord->find('carId =')
+#4 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/actions/CAction.php(76): ShowTripDetailAction->run()
+#5 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(308): CAction->runWithParams(Array)
+#6 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(286): CController->runAction(Object(ShowTripDetailAction))
+#7 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(ShowTripDetailAction), Array)
+#8 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('showTripDetail')
+#9 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('api/showTripDet...')
+#10 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /home2/hicommart/public_html/hicomsolutions/taxinear/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taxinear/api/showTripDetail
+---
+2017/05/06 05:31:59 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `vehicle_img` `t` WHERE carId = LIMIT 1.
+in /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/api/ShowTripDetailAction.php (39)
+in /home2/hicommart/public_html/hicomsolutions/taxinear/index.php (13)
+2017/05/06 05:31:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `vehicle_img` `t` WHERE carId = LIMIT 1' in /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(1356): CDbCommand->queryRow()
+#2 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(1461): CActiveRecord->query(Object(CDbCriteria))
+#3 /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/api/ShowTripDetailAction.php(39): CActiveRecord->find('carId =')
+#4 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/actions/CAction.php(76): ShowTripDetailAction->run()
+#5 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(308): CAction->runWithParams(Array)
+#6 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(286): CController->runAction(Object(ShowTripDetailAction))
+#7 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(ShowTripDetailAction), Array)
+#8 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('showTripDetail')
+#9 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('api/showTripDet...')
+#10 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /home2/hicommart/public_html/hicomsolutions/taxinear/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taxinear/api/showTripDetail
+---
+2017/05/06 05:32:37 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `vehicle_img` `t` WHERE carId = LIMIT 1.
+in /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/api/ShowTripDetailAction.php (39)
+in /home2/hicommart/public_html/hicomsolutions/taxinear/index.php (13)
+2017/05/06 05:32:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `vehicle_img` `t` WHERE carId = LIMIT 1' in /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(1356): CDbCommand->queryRow()
+#2 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(1461): CActiveRecord->query(Object(CDbCriteria))
+#3 /home2/hicommart/public_html/hicomsolutions/taxinear/protected/controllers/api/ShowTripDetailAction.php(39): CActiveRecord->find('carId =')
+#4 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/actions/CAction.php(76): ShowTripDetailAction->run()
+#5 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(308): CAction->runWithParams(Array)
+#6 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(286): CController->runAction(Object(ShowTripDetailAction))
+#7 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(ShowTripDetailAction), Array)
+#8 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('showTripDetail')
+#9 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('api/showTripDet...')
+#10 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /home2/hicommart/public_html/hicomsolutions/taxinear/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taxinear/api/showTripDetail
+---
+2017/05/07 22:21:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "xml".' in /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('xml')
+#1 /home2/hicommart/public_html/hicomsolutions/taxinear/yii/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home2/hicommart/public_html/hicomsolutions/taxinear/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/taxinear/xml
+---
