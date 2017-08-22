@@ -5,10 +5,10 @@ return array(
 	//'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
 	// uncomment the following lines to use a MySQL database
 	
-	'connectionString' => 'mysql:host=us-cdbr-iron-east-05.cleardb.net;dbname=heroku_2ecfbd26772c890',
+	'connectionString' => 'mysql:host=mysql.hostinger.com;dbname=u429251742_movs',
 	'emulatePrepare' => true,
-	'username' => 'bf008769c98e90',
-	'password' => '4b77334c',
+	'username' => 'u429251742_root',
+	'password' => 'JayRav64312212',
 	'charset' => 'utf8',
 	
 );
